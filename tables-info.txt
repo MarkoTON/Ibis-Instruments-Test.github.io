@@ -1,0 +1,212 @@
+<div class="col-md-12">
+  <div class="row">
+    
+    <div class="col-md-3 col-lg-3">
+      
+      <div class="card shadow-sm d-block rounded-5 clearfix p-1 my-1">
+        <p class="d-inline float-left pl-1 m-0">Overall Status</p>
+        <span class="float-right bg-warning rounded-5 px-4">Medium</span>
+      </div>
+      <div class="card shadow-sm d-block rounded-5 clearfix p-1 my-1">
+        <p class="d-inline float-left pl-1 m-0">RSS Status</p>
+        <span class="float-right bg-danger rounded-5 px-4">Bad</span>
+      </div>
+      <div class="card shadow-sm d-block rounded-5 clearfix p-1 my-1">
+        <p class="d-inline float-left pl-1 m-0">Stycky Client Status</p>
+        <span class="float-right bg-success rounded-5 px-4">Good</span>
+      </div>
+      <div class="card shadow-sm d-block rounded-5 clearfix p-1 my-1">
+        <p class="d-inline float-left pl-1 m-0 mb-1">Interference Status - overall</p>
+        <span class="float-right bg-warning rounded-5 px-4 mb-1">Medium</span>
+        <p class="d-inline float-left pl-1 m-0 mb-1">Interference Status Co - Channel</p>
+        <span class="float-right bg-success rounded-5 px-4 mb-1">Good</span>
+        <p class="d-inline float-left pl-1 m-0">Interference Status -  Adjacent</p>
+        <span class="float-right bg-danger rounded-5 px-4">Bad</span>
+      </div>
+      <div class="card shadow-sm d-block rounded-5 clearfix p-1 my-1">
+        <h6 class="pl-1">HGw Interference</h6>
+        <div class="row">
+          <div class="col">
+            <p class="d-inline pl-1 m-0">UniFi</p>
+            <span class=" bg-success rounded-5 px-4">Good</span>
+          </div>
+          <div class="col">
+            <p class="d-inline pl-1 m-0">Home</p>
+            <span class=" bg-danger rounded-5 px-4">Medium</span>
+          </div>
+        </div>
+      </div>
+      <div class="card shadow-sm d-block rounded-5 clearfix p-1 my-1">
+        <h6 class="d-block pl-1 m-0 mb-1">Retransmission Status
+          <span class="float-right bg-danger rounded-5 px-4 mb-1">Bad</span>
+        </h6>
+        <p class="d-inline float-left pl-1 m-0">HGw Number of retransmissions</p>
+        <span class="float-right px-4">5515</span>
+      </div>
+      <div class="card shadow-sm d-block rounded-5 clearfix p-1 my-1">
+        <p class="d-inline float-left pl-1 m-0">Total Number of Clients</p>
+        <span class="float-right px-4">120</span>
+        <p class="d-inline float-left pl-1 m-0">Max. numbers of concurent clients</p>
+        <span class="float-right px-4">10</span>
+      </div>
+      <div class="card shadow-sm d-block rounded-5 clearfix p-1 my-1">
+        <h6 class="d-block pl-1 m-0">HGw Combined status</h6>
+        <p class="d-inline float-left pl-1 m-0">HGw Number of clients</p>
+        <span class="float-right px-4">15</span>
+        <p class="d-inline float-left pl-1 m-0">HGw Number of sticky clients</p>
+        <span class="float-right px-4">2</span>
+        <p class="d-inline float-left pl-1 m-0">Data transfered[GB]</p>
+        <span class="float-right px-4">5.7</span>
+      </div>
+    </div>
+    <div class="col-md-3 col-lg-3">
+      <div class="card shadow-sm d-block rounded-5 clearfix  my-1">
+        <h6 class="d-inline float-left p-1 pl-1 m-0">HGw Bitrate [Mbps]</h6>
+        <table class="table table-striped m-0">
+          <thead>
+            <tr>
+              <th scope="col" class="border-right">KPI Name</th>
+              <th scope="col">Min</th>
+              <th scope="col">Avg</th>
+              <th scope="col">Max</th>
+              <th scope="col">Last</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row" class="border-right">Bitrate</th>
+              <td>15</td>
+              <td>15</td>
+              <td>15</td>
+              <td>15</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="card shadow-sm d-block rounded-5 clearfix p-1 my-1">
+        <p class="d-inline float-left pl-1 m-0">HGW total traffice[GB]</p>
+        <span class="float-right px-4">5.7</span>
+      </div>
+      <div class="card shadow-sm d-block rounded-5 clearfix  my-1">
+        <h6 class="d-inline float-left p-1 pl-1 m-0">HGw Bitrate [Mbps]</h6>
+        <table class="table table-striped m-0">
+          <thead>
+            <tr>
+              <th scope="col" class="border-right">KPI Name</th>
+              <th scope="col">Min</th>
+              <th scope="col">Avg</th>
+              <th scope="col">Max</th>
+              <th scope="col">Last</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row" class="border-right">Bitrate</th>
+              <td>15</td>
+              <td>15</td>
+              <td>15</td>
+              <td>15</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="card shadow-sm d-block rounded-5 clearfix  my-1">
+        <h6 class="d-inline float-left p-1 pl-1 m-0">HGw Bitrate [Mbps]</h6>
+        <table class="table table-striped m-0">
+          <thead>
+            <tr>
+              <th scope="col" class="border-right">KPI Name</th>
+              <th scope="col">Min</th>
+              <th scope="col">Avg</th>
+              <th scope="col">Max</th>
+              <th scope="col">Last</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row" class="border-right">Bitrate</th>
+              <td>15</td>
+              <td>15</td>
+              <td>15</td>
+              <td>15</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div  class="col-md-2 col-lg-2">
+      <div class="card shadow-sm d-block rounded-5 clearfix p-1 my-1">
+        <h6 class="d-inline float-left pl-1 m-0">Wifi connected time</h6>
+        <div id="container10">
+        </div>
+      </div>
+      <div class="card shadow-sm d-block rounded-5 clearfix p-1 my-1">
+        <h6 class="d-inline float-left pl-1 m-0">Wifi connected time</h6>
+        <div id="container11">
+        </div>
+      </div>
+      <div class="card shadow-sm d-block rounded-5 clearfix p-1 my-1">
+        <h6 class="d-inline float-left pl-1 m-0">Wifi connected time</h6>
+        <div id="container12">
+        </div>
+      </div>
+      <div class="card shadow-sm d-block rounded-5 clearfix p-1 my-1">
+        <h6 class="d-inline float-left pl-1 m-0">Wifi connected time</h6>
+        <div id="container13">
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2 col-lg-2">
+      <div class="card shadow-sm d-block rounded-5 clearfix p-1 my-1">
+        <h6 class="d-inline float-left pl-1 m-0">Wifi connected time</h6>
+        <div id="container14">
+        </div>
+      </div>
+      <div class="card shadow-sm d-block rounded-5 clearfix p-1 my-1">
+        <h6 class="d-inline float-left pl-1 m-0">Wifi connected time</h6>
+        <div id="container15">
+        </div>
+      </div>
+      <div class="card shadow-sm d-block rounded-5 clearfix p-1 my-1">
+        <h6 class="d-inline float-left pl-1 m-0">Wifi connected time</h6>
+        <div id="container16">
+        </div>
+      </div>
+      <div class="card shadow-sm d-block rounded-5 clearfix p-1 my-1">
+        <h6 class="d-inline float-left pl-1 m-0">Wifi connected time</h6>
+        <div id="container17">
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2 col-lg-2">
+      <div class="card shadow-sm d-block rounded-5 clearfix p-1 my-1">
+          <h6 class="text-center">HGw Info</h6>
+          <hr>
+          <p class="d-inline float-left pl-1 m-0">Wifi enabled:</p>
+          <span class="float-right px-4">Yes</span>
+          <p class="d-inline float-left pl-1 m-0">HGW standard:</p>
+          <span class="float-right px-4">802.11b</span>
+          <p class="d-inline float-left pl-1 m-0">IP Address:</p>
+          <span class="float-right px-4">192.168.1.1</span>
+          <p class="d-inline float-left pl-1 m-0">Mac:</p>
+          <span class="float-right px-4">AA:BB:XX:DD:GG</span>
+          <p class="d-inline float-left pl-1 m-0">Contract No:</p>
+          <span class="float-right px-4">22654654221656</span>
+          <p class="d-inline float-left pl-1 m-0">SSID:</p>
+          <span class="float-right px-4">ibis-with</span>
+          <p class="d-inline float-left pl-1 m-0">Channel:</p>
+          <span class="float-right px-4">6</span>
+          <p class="d-inline float-left pl-1 m-0">Security:</p>
+          <span class="float-right px-4">WPA/WPA2-PSK</span>
+          <p class="d-inline float-left pl-1 m-0">Hidden SSID:</p>
+          <span class="float-right px-4">2.4Hz</span>
+          <p class="d-inline float-left pl-1 m-0">Bandwith:</p>
+          <span class="float-right px-4">22 MHz</span>
+          <p class="d-inline float-left pl-1 m-0">Equipment:</p>
+          <span class="float-right px-4">ABC</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/charts.js"></script>

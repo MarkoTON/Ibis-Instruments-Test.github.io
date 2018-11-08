@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ibis Instruments</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container-fluid" >
+    <div id="mainCard" class="rounded-0">
+      <h3 class="border-bottom pb-3 pt-4 pl-3 m-0">Report</h3>
+      
+      
+      <div id="search-main">
+        
+      </div><!-- search-main -->
+      
+      <ul class="nav nav-tabs pt-4" id="nav-tab" role="tablist">
+        <li class="nav-item mx-3">
+          <a class="nav-item nav-link px-5 rounded-0" id="nav-home-tab" data-toggle="tab" href="#nav-tables" role="tab" aria-controls="nav-tables" aria-selected="true">Tables</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-item nav-link active px-5 rounded-0" id="nav-profile-tab" data-toggle="tab" href="#nav-graphis" role="tab" aria-controls="nav-graphis" aria-selected="false">Graphis</a>
+        </li>
+      </ul>
+
+      <button type="button" id="toggleInfoHGW" class="btn rounded-50 text-center m-4 px-4 ml-auto" onclick="toggleHGwInfo()">
+          HGw Info
+          <i id="arrIcon" class="fas fa-angle-up pl-2"></i>
+          </button>
+
+      <div id="chartTableAndGraphis">
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade" id="nav-tables" role="tabpanel" aria-labelledby="nav-home-tab">
+            <div id="tables-info">
+              
+            </div>
+          </div><!-- tab-pane fade -->
+          <div class="tab-pane fade show active" id="nav-graphis" role="tabpanel" aria-labelledby="nav-profile-tab"><!-- || show active || -->
+            <div id="graphis-info">
+              
+            </div>
+          </div><!-- tab-pane fade -->
+        </div><!-- tab-content -->
+      </div>
+      
+    </div><!-- card -->
+  </div><!-- container-fluid -->
+  
+  
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://code.highcharts.com/modules/series-label.js"></script>
+  <script src="https://code.highcharts.com/modules/exporting.js"></script>
+  <script src="https://code.highcharts.com/modules/export-data.js"></script>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/days.js"></script>
+  <script src="js/main.js"></script>
+  
+</body>
+</html>

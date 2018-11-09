@@ -126,3 +126,8 @@ body {
 #tables-info .card {
   font-size: 0.7rem;
 }
+
+#tables-info h6 span {
+  font-size: 0.7rem;
+  padding: 0.1rem 0;
+}
